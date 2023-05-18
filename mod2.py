@@ -10,13 +10,13 @@ saudacao = ''
 hora = agora.hour
 
 if 6 <= hora < 12:
-    saudacao = 'bom dia recrutador (a)!'
+    saudação   =   'bom dia ☀ recrutador (a) !'
 
 elif 12 <= hora < 18 :
-    saudacao ='boa tarde recrutador (a) !'
+    saudação  = 'boa tarde  ☀ recrutador (a)!'
 
 else:
-    saudacao = 'boa noite recrutador (a)!'
+    saudação  =  'boa noite  🌙 recrutador (a)!'
 
 print('data:', dia_atual)
 print('hora', hora_atual)
