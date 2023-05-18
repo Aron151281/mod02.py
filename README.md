@@ -25,5 +25,5 @@ Acesso ao Projeto: Github
 
 
 
-##  Desenvolvedor do projeto:
+##  AUTOR:
 Aron Augusto  Bernardo Silva
