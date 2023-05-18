@@ -6,21 +6,21 @@ dia_atual = agora.strftime('%d/%m/%y')
 
 hora_atual = agora.strftime('%H:%M:%S')
 
-saudacao = ''
+sau = ''
 hora = agora.hour
 
 if 6 <= hora < 12:
-    saudação   =   'bom dia ☀ recrutador (a) !'
+    sau     =    'bom dia 🌞 recrutador(a) !'
 
-elif 12 <= hora < 18 :
-    saudação  = 'boa tarde  ☀ recrutador (a)!'
+elif  12 <= hora < 18 :
+    sau    =   'boa tarde  🌞 recrutador(a)!'
 
 else:
-    saudação  =  'boa noite  🌙 recrutador (a)!'
+    sau   =  '   boa noite  🌙  recrutador(a)!'
 
 print('data:', dia_atual)
 print('hora', hora_atual)
-print(saudacao)
+print(sau )
 
 
 print('Olá Recrutador(a). Seja bem vindo a plataforma de processos seletivos! ')
