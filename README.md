@@ -12,8 +12,18 @@ Uma startup está desenvolvendo um aplicativo que verifica a compatibilidade de 
 ##  Funcionalidade e demosntração:
 Foi criado com Python uma lista para armazenar resultados (e outros resultados que quiserem no mesmo formato, o código precisa funcionar para qualquer lista que seja inserida nesse formato) e depois uma função que busca o candidato de acordo com os critérios digitados pelo usuário. O usuário vai informar qual a nota mínima de e, t, pes que ele deseja buscar, nossa aplicação fica listado quem são os candidatos disponíveis com nota maior ou igual a essas derrotas pelo usuário.
 
-Acesso ao Projeto;
-Pelo Github.
+
+##  Tecnologias utilizadas : VSCODE E PYTHON
+
+
+
+
+
+
+Acesso ao Projeto: Github
+
+
+
 
 ##  Desenvolvedor do projeto:
 Aron Augusto  Bernardo Silva
