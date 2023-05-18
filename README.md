@@ -1,7 +1,8 @@
 #  Titulo;     
 
 ##  Projeto individual mod 2      
- 
+ [![NPM](https://img.shields.io/npm/l/react)](https://github.com/devsuperior/sds1-wmazoni/blob/master/LICENSE) 
+
 
 ##  descrição do projeto:
 Uma startup está desenvolvendo um aplicativo que verifica a compatibilidade de um candidato com uma vaga de acordo com seu resultado nas etapas do processo seletivo. Para isso foi criado um teste que devolve uma string no seguinte formato: e _t _p _s (sendo que cada espaço é substituído pela avaliação da pessoa em uma das etapas do processo - entrevista, teste teórico, teste prático e avaliação de soft skills).    
