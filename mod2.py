@@ -1,26 +1,26 @@
 import datetime as dt
-#conformeo horario de execução do programa apararecerá bom dia , boa tarde e boa noite  com dia/mes /ano e horario local.
+#conforme o horario de execução do programa apararecerá bom dia , boa tarde e boa noite  com dia/mes /ano e horario local.
 agora = dt.datetime.now()
 
 dia_atual = agora.strftime('%d/%m/%y')
 
 hora_atual = agora.strftime('%H:%M:%S')
 
-sau = ''
+saudação = ''
 hora = agora.hour
 
 if 6 <= hora < 12:
-    sau     =    'bom dia 🌞 recrutador(a) !'
+    saudação     =    'bom dia 🌞 recrutador(a) !'
 
 elif  12 <= hora < 18 :
-    sau    =   'boa tarde  🌞 recrutador(a)!'
+    saudação    =   'boa tarde  🌞 recrutador(a)!'
 
 else:
-    sau   =  '   boa noite  🌙  recrutador(a)!'
+    saudação   =  '   boa noite  🌙  recrutador(a)!'
 
 print('data:', dia_atual)
 print('hora', hora_atual)
-print(sau )
+print(saudação )
 
 #aparecerá uma saudação ao recrutador pedidndo para inserir o seu nome .
 print('Olá Recrutador(a). Seja bem vindo a plataforma de processos seletivos! ')
@@ -64,15 +64,15 @@ print("Segue a lista com os candidatos aprovados: ")
 #Comparação das notas
 
 def imprime(lista_candidatos, lista_notas_minimas):
-    coun1 = 0
+    codigo_unidade = 0
     candidatos_aprovados = []                                #Lista criada para adicionar os candidados que cumpriram todos os pré-requisitos para aprovação.        
     for concorrentes, notas in enumerate(lista_candidatos):
         for indice, valor in enumerate(notas):
             if lista_notas_minimas[indice] <= valor:
-                coun1 += 1
-        if coun1 == 4: 
+                codigo_unidade += 1
+        if codigo_unidade == 4: 
             candidatos_aprovados.append(lista_candidatos[concorrentes])
-            coun1 = 0
+            codigo_unidade = 0
     for finalistas, notas in enumerate (candidatos_aprovados):                          
         print(f' Resultados do candidato  aprovado ID {finalistas}: e{notas[0]}_t{notas[1]}_p{notas[2]}_s{notas[3]}')
             
